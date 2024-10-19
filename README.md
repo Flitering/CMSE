@@ -1,5 +1,5 @@
 ===========
-<img src="https://imgur.com/a/Ma0a9DF.jpg" alt="Интерфейс">
+<img src="https://i.imgur.com/Fq0Ra9u.png" alt="Интерфейс">
 
 
 This program provides a graphical interface to edit saved game files for Cloud Meadow. It allows users to:
