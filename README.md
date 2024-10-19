@@ -1,4 +1,4 @@
-===========
+
 <img src="https://i.imgur.com/Fq0Ra9u.png" alt="Интерфейс">
 
 
