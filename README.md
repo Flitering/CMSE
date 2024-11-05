@@ -19,4 +19,18 @@ Create & Restore Backups: It automatically creates backups of save files before 
 Создавать и восстанавливать резервные копии: Программа автоматически создает резервные копии файлов сохранений перед редактированием, и игроки могут вернуться к этим резервным копиям при необходимости.
 
 
+Обновление v619
+
+Пофиксил неправильное срабатывание сохранения файла, изза чего не все параметры можно было изменить.
+Сейчас все должно работать стабильно
+Известный баг - все значения превращаются в float значения с точкой. Однако игра это фиксит, так что проблем не должно быть.
+Обновил интерфейс.
+
+Update v619
+
+Fixed file saving malfunction, because of which not all parameters could be changed.
+Now everything should work stably
+Known bug - all values turn into float values with a point. However, the game fixes it, so there should be no problems.
+Updated the interface.
+
 ===== Donate https://boosty.to/aga7on/donate
