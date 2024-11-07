@@ -1,36 +1,65 @@
+<div class="container">
+  <img src="https://i.imgur.com/rLGXdJj.png" alt="Interface screenshot showing tree structure and editing capabilities" width="800" height="600">
 
-<img src="https://i.imgur.com/Fq0Ra9u.png" alt="Интерфейс">
+  <div class="section">
+    <h2>Редактор сохранений</h2>
+    <div class="features">
+      • Древовидная структура данных с разворачиваемыми узлами<br>
+      • Контекстное меню для массового выбора подзаголовков<br>
+      • Редактор клонированных значений со скроллингом<br>
+      • Групповое обновление значений<br>
+      • Поддержка длинных строк данных<br>
+      • Многоуровневая навигация<br>
+      • Мультивыбор с модификаторами клавиатуры
+    </div>
+  </div>
 
+  <div class="section">
+    <h2>Save Editor</h2>
+    <div class="features">
+      • Tree-structured data with expandable nodes<br>
+      • Context menu for bulk subheader selection<br>
+      • Clone values editor with scrolling<br>
+      • Batch value updates<br>
+      • Long string data support<br>
+      • Multi-level navigation<br>
+      • Multi-selection with keyboard modifiers
+    </div>
+  </div>
 
-This program provides a graphical interface to edit saved game files for Cloud Meadow. It allows users to:
+  <div class="section">
+    <h2>UPDATE LOG</h2>
+    
+    Обновление v0069
+    
+      • Обновление интерфейса. Кнопки для сворачивания и разворачивания древа.<br>
+      • Новая функция которая выбирает все заголовки у родительского параметра через ПКМ<br>
+      • Функция Show Clone Values собирает из всех выделенных заголовков одинаковые имена параметров и позволяет задать всем ячейчкам одинаковое значение (Выделять через CTRL или с помощью Select Heads Below через ПКМ)
+    
 
-Open and View Save Files: It can decode and display the contents of Cloud Meadow save files, which are typically stored in a JSON-like format but with added encoding.
-Browse and Edit Values: Users can navigate through the save data, view different values (like character stats, inventory items, etc.), and modify them directly within the editor.
-Save Changes: The editor can save the modified data back to the original save file format, allowing players to apply their edits to the game.
-Open Save Folder: A convenient button to directly open the file system location where Cloud Meadow save files are stored.
-Create & Restore Backups: It automatically creates backups of save files before editing, and players can revert to these backups if needed.
+    Update v0069
+    
+      • Interface update. Buttons for collapsing and expanding the tree.<br>
+      • A new function that selects all headers from the parent parameter via the PCM<br>
+      • The Show Clone Values function collects the same parameter names from all selected headers and allows you to set all cells to the same value (Select via CTRL or using Select Heads Below via RMB)
+    
 
-Эта программа предоставляет графический интерфейс для редактирования файлов сохранений игры Cloud Meadow. Она позволяет пользователям:
+    Обновление v619
+    
+      • Пофиксил неправильное срабатывание сохранения файла, изза чего не все параметры можно было изменить.<br>
+      • Сейчас все должно работать стабильно<br>
+      • <span class="bug">Известный баг - все значения превращаются в float значения с точкой. Однако игра это фиксит, так что проблем не должно быть.</span><br>
+      • Обновил интерфейс.
+    
 
-Открывать и просматривать файлы сохранений: Программа может декодировать и отображать содержимое файлов сохранений Cloud Meadow, которые обычно хранятся в формате, похожем на JSON, но с дополнительным кодированием.
-Просматривать и редактировать значения: Пользователи могут перемещаться по данным сохранения, просматривать различные значения (например, характеристики персонажа, предметы инвентаря и т. д.) и изменять их непосредственно в редакторе.
-Сохранять изменения: Редактор может сохранять измененные данные обратно в исходный формат файла сохранения, что позволяет игрокам применять свои изменения в игре.
-Открывать папку с сохранениями: Удобная кнопка для прямого открытия папки, в которой хранятся файлы сохранений Cloud Meadow.
-Создавать и восстанавливать резервные копии: Программа автоматически создает резервные копии файлов сохранений перед редактированием, и игроки могут вернуться к этим резервным копиям при необходимости.
+    Update v619
+    
+      • Fixed file saving malfunction, because of which not all parameters could be changed.<br>
+      • Now everything should work stably<br>
+      • <span class="bug">Known bug - all values turn into float values with a point. However, the game fixes it, so there should be no problems.</span><br>
+      • Updated the interface.
+    
+  </div>
 
-
-Обновление v619
-
-Пофиксил неправильное срабатывание сохранения файла, изза чего не все параметры можно было изменить.
-Сейчас все должно работать стабильно
-Известный баг - все значения превращаются в float значения с точкой. Однако игра это фиксит, так что проблем не должно быть.
-Обновил интерфейс.
-
-Update v619
-
-Fixed file saving malfunction, because of which not all parameters could be changed.
-Now everything should work stably
-Known bug - all values turn into float values with a point. However, the game fixes it, so there should be no problems.
-Updated the interface.
-
-===== Donate https://boosty.to/aga7on/donate
+  <a href="https://boosty.to/aga7on/donate" class="donate">💝 Support the project - Donate</a>
+</div>
