@@ -102,7 +102,7 @@ class CloudMeadowSaveEditor:
         self.save_table.column("Key", width=300)
         self.save_table.column("Value", width=300)
         self.save_table.grid(row=1, column=0, columnspan=2, padx=10, pady=10, sticky="nsew")
-        self.save_table.bind("&lt;Double-1&gt;", self.edit_value)
+        self.save_table.bind("<Double-1>", self.edit_value)
 
         self.save_table.tag_configure("selected_tree", background=self.style.colors.info)
         self.save_table.tag_configure("error_tree", background=self.style.colors.danger)
