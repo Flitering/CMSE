@@ -1,6 +1,4 @@
 <div class="container">
-  <img src="https://i.imgur.com/rLGXdJj.png" alt="Interface screenshot showing tree structure and editing capabilities" width="800" height="600">
-
   <div class="section">
     <h2>Редактор сохранений</h2>
     <div class="features">
@@ -30,36 +28,16 @@
   <div class="section">
     <h2>UPDATE LOG</h2>
     
-    Обновление v0069
+    Обновление v2.0
     
-      • Обновление интерфейса. Кнопки для сворачивания и разворачивания древа.<br>
-      • Новая функция которая выбирает все заголовки у родительского параметра через ПКМ<br>
-      • Функция Show Clone Values собирает из всех выделенных заголовков одинаковые имена параметров и позволяет задать всем ячейчкам одинаковое значение (Выделять через CTRL или с помощью Select Heads Below через ПКМ)
-    
-
-    Update v0069
-    
-      • Interface update. Buttons for collapsing and expanding the tree.<br>
-      • A new function that selects all headers from the parent parameter via the PCM<br>
-      • The Show Clone Values function collects the same parameter names from all selected headers and allows you to set all cells to the same value (Select via CTRL or using Select Heads Below via RMB)
+      • Добавлена многоступенчатая декодировка Base64 (UTF-8/UTF-16), позволяющая автоматически удалять управляющие символы и корректно открывать «тяжёлые» сохранения.<br>
+      • Внедрён переключатель языка (русский/английский) и локализация основных элементов интерфейса.
     
 
-    Обновление v619
+    Update v2.0
     
-      • Пофиксил неправильное срабатывание сохранения файла, изза чего не все параметры можно было изменить.<br>
-      • Сейчас все должно работать стабильно<br>
-      • <span class="bug">Известный баг - все значения превращаются в float значения с точкой. Однако игра это фиксит, так что проблем не должно быть.</span><br>
-      • Обновил интерфейс.
-    
-
-    Update v619
-    
-      • Fixed file saving malfunction, because of which not all parameters could be changed.<br>
-      • Now everything should work stably<br>
-      • <span class="bug">Known bug - all values turn into float values with a point. However, the game fixes it, so there should be no problems.</span><br>
-      • Updated the interface.
+      • Added multi-step Base64 decoding (UTF-8/UTF-16) with automatic removal of control characters to handle “heavy” save files.<br>
+      • Introduced a language switcher (Russian/English) and localization of main interface elements.
     
   </div>
-
-  <a href="https://boosty.to/aga7on/donate" class="donate">💝 Support the project - Donate</a>
 </div>
