@@ -30,13 +30,12 @@
     
     Обновление v2.0
     
-      • Добавлена многоступенчатая декодировка Base64 (UTF-8/UTF-16), позволяющая автоматически удалять управляющие символы и корректно открывать «тяжёлые» сохранения.<br>
+      • Добавлена многоступенчатая декодировка Base64 (UTF-8/UTF-16), позволяющая автоматически удалять управляющие символы и корректно открывать «тяжёлые» сохранения.
       • Внедрён переключатель языка (русский/английский) и локализация основных элементов интерфейса.
     
-
     Update v2.0
     
-      • Added multi-step Base64 decoding (UTF-8/UTF-16) with automatic removal of control characters to handle “heavy” save files.<br>
+      • Added multi-step Base64 decoding (UTF-8/UTF-16) with automatic removal of control characters to handle “heavy” save files.
       • Introduced a language switcher (Russian/English) and localization of main interface elements.
     
   </div>
